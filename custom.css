@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+*::selection{
+    background-color: rgb(51,51,51);
+    color: #ffff;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.container-main{
+    margin: 0 25%;
+}
+/* ======================Carousel=================== */
+#carousel .carousel-1{
+    background-image: url(./assets/images/carousel-1.jpg);
+    height: 60rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carousel .carousel-2{
+    background-image: url(./assets/images/carousel-2.jpg);
+    height: 60rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carousel .carousel-3{
+    background-image: url(./assets/images/carousel-3.jpg);
+    height: 60rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carousel .carousel-control-prev{
+    margin-left: 2rem;
+}
+#carousel .bi{
+    opacity: 1;
+    font-size: 3.5rem;
+}
+#carousel .carousel-control-next{
+    margin-right: 2rem;
+}
+#carousel .fa-angle-left{
+    font-size: 4.5rem;
+    color: #ffff;
+}
+#carousel .fa-angle-right{
+    font-size: 4.5rem;
+}
+#carpusel .btn-center{
+    position: absolute;
+    top: 50%;
+    padding: 10rem;
+}
+/* =====================/Carousel=================== */
+
+/* ======================Navbar=================== */
+#navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    width: 100%;
+}
+.navbar .navbar-hide img{
+    width: 12rem;
+    height: 9.6rem;
+    margin-left: 1.8rem;
+    margin-top: 0;
+}
+.navbar-show img{
+    width: 6.4rem;
+    height: 5.2rem;
+    margin-left: 2.5rem;
+    margin-top: 0;
+}
+.navbar .nav-link{
+    color: #ffff;
+}
+.navbar a:hover{
+    color: #333333;
+}
+.navbar .nav-link{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.navbar-show{
+    display: none;
+}
+
+/* ======================Navbar=================== */
+
+/* ======================About==================== */
+#about{
+    margin-top: 4rem;
+}
+#about img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: auto;
+}
+#about .title{
+    margin: 1rem 0;
+    font-size: 4.3rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+#about .text{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+#about .line{
+    margin-left: 40rem;
+    margin-right: 40rem;
+    border-top: #333333 solid 1px;
+    border-width: 0.1rem;
+}
+#about hr{
+    display: inline-block;
+    border: solid #333333 1px;
+    width: 30%;
+    margin: 1rem 0;
+}
+#about .word-wisdom{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+#about .author{
+    font-size: 1.3rem;
+}
+#about .container-css{
+    margin: 6rem 25rem;
+}
+/* =====================/About==================== */
+
+/* =====================/About-Food==================== */
+#about-food{
+    background: #EBEBEB;
+    padding: 5rem;
+    /* z-index: auto; */
+}
+#about-food .header{
+    font-size: 1.3rem;
+}
+#about-food .title{
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+#about-food .text{
+    font-size:1.7rem;
+    font-weight: 300;
+}
+#about-food .test-button{
+    margin-top: 5%;
+    padding: 1.5rem 3.3rem;
+    color: #000;
+    font-size: 1.3rem;
+    border: none;
+    background: #ffff;
+    position: relative;
+    z-index: 10;
+}
+#about-food .test-button .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    background-color: #333333;
+    width: 0;
+    height:100%;
+    transition: .3s ease;
+}
+#about-food .test-button:hover .overlay{
+    right: 0;
+    width: 100%;
+}
+#about-food .test-button:hover span{
+    z-index: -1;
+    color: #fff;
+}
+/* =====================About-Food==================== */
+
+/* =====================Location====================== */
+#location .title{
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 3rem;
+}
+#location .map{
+    background-image: url(./assets/images/staticmap.png);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* ====================/Location====================== */
+
+/* ===================Carousel======================== */
+#carousel-second{
+    background-image: url(./assets/images/main-home-slide3.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carousel-second img{
+    width: 76px !important;
+    height: 76px !important;
+    border-radius: 50%;
+    margin-left: 35rem;
+}
+#carousel-second .carousel-text p{
+    color: #ffff;
+    font-size: 2rem;
+}
+#carousel-second #carouselExampleSlidesOnly{
+    max-width: 100%;
+    max-height: auto;
+    width: 40%;
+}
+/* ==================/Carousel====================== */
+
+/* ===================Menu==========================*/
+#menu .texts-container .f-text{
+    font-size: 1.3rem;
+    color: #000;
+}
+#menu .texts-container .s-text{
+    border-bottom: 1px solid #aea4a4;
+    width: 10rem;
+}
+#menu .texts-container .th-text{
+    font-size: 1.3rem;
+    color: #000;
+}
+/* ==================/Menu========================== */
+
+/* ====================Footer====================== */
+footer{
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    background: #1B1B1B;
+    width: 100%;
+    color: #D4D4D4;
+}
+#footer .row{
+    padding: 4rem 0;
+}
+#footer .title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+#footer .text{
+    font-size:1.5rem;
+}
+#footer p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#footer .fa-brands{
+    font-size: 1.5rem;
+}
+/* ===================/Footer======================= */
+
+/* ===================UP======================= */
+#up{
+    position: fixed;
+    height: 4.5rem;
+    width: 4.5rem;
+    background: #333333;
+    z-index: 100;
+    bottom: 5rem !important;
+    right:4rem !important;
+    padding: 1.1rem;
+}
+#up div  i{
+    color: #fff;
+    font-size: 1.2rem;
+}
+#up:hover{
+    background: #585858;
+    cursor: pointer;
+}
+#up a{
+    width: 100%;
+    height: 100%;
+}
+/* ==================/UP======================= */
+
+
+
+
+/* =====================MeadiQuery=================== */
+
+@media only screen and (max-width: 1000px){
+    html{
+        font-size: 58%;
+        scroll-behavior: smooth;
+    }
+    .navbar{
+        background: #fff;
+    }
+    .navbar .nav-link{
+        color: #989898 !important;
+        display: block !important;
+        text-align: center !important;
+        font-size: 1.3rem !important;
+    }
+    .navbar .nav-link:hover{
+        color: #000 !important;
+    }
+    .navbar-nav a{
+        margin: 1rem 1rem !important;
+        padding: 0 !important;
+    }
+    .navbar .navbar-toggler{
+        transition: all 0.2s;
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler:hover{
+        color: #989898;
+        font-size: 1.7rem;
+    }
+    .navbar-hide{
+        display: none !important;
+    }
+    .navbar-show{
+        display: inline-block !important;
+    }
+    .navbar .navbar-toggler{
+        border: none !important;
+    }
+}
+@media only screen and(max-width: 576px){
+    html{
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 50%;
+    }
+}
