@@ -26,21 +26,21 @@ img{
 }
 /* ======================Carousel=================== */
 #carousel .carousel-1{
-    background-image: url(./images/carousel-1.jpg);
+    background-image: url(../images/carousel-1.jpg);
     height: 60rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #carousel .carousel-2{
-    background-image: url(./images/carousel-2.jpg);
+    background-image: url(../images/carousel-2.jpg);
     height: 60rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #carousel .carousel-3{
-    background-image: url(./images/carousel-3.jpg);
+    background-image: url(../images/carousel-3.jpg);
     height: 60rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ img{
     margin-bottom: 3rem;
 }
 #location .map{
-    background-image: url(./images/staticmap.png);
+    background-image: url(../images/staticmap.png);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ img{
 
 /* ===================Carousel======================== */
 #carousel-second{
-    background-image: url(./images/main-home-slide3.jpg);
+    background-image: url(../images/main-home-slide3.jpg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
